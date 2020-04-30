@@ -1,0 +1,139 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: pink;
+}
+.navbar-header .navbar-brand{
+	text-align: left;
+	margin-left: 0px;
+	margin: 10px;
+	text-shadow: 2px;
+	font-size: 4em;
+	font-family: serif;
+	color: pink;
+}
+#header-nav{
+	background-color: black;
+}
+.container .navbar-toggle{
+	float:right;
+	size: 50px;
+	color: white;
+	margin-bottom: 100px;
+}
+.row>h1{
+	text-align: center;
+	color: solid black;
+}
+.row{
+  	width: 100%;
+  	text-align: center;
+}
+.navbar-toggle{
+    background-color: black;
+    size: 100px;
+    margin-top: 0px;
+}
+.diff{
+	border:0px;
+	background-color: pink;
+}
+a{
+	color:pink;
+	text-align:center;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .same{
+    border: 1px  solid black;
+    padding: 10px
+    padding-top: 50px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	background-color: gray;
+  	font-size: 1.5em;
+  	width: 100%;
+  	margin-bottom: 20px;
+  }
+  #box1,#box2,#box3{
+  	text-align: center;
+  	font-size: 1em;
+  	font-weight: bold;
+  }
+  .same{
+  	width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .same{
+    border: 1px  solid black;
+    padding: 10px
+    padding-top: 50px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	background-color: gray;
+  	font-size: 1.5em;
+  	width: 100%;
+  	margin-bottom: 20px;
+  }
+  #collapsable-nav{
+  	visibility: none;
+  }
+  #box1,#box2,#box3{
+  	text-align: center;
+  	font-size: 1em;
+  	font-weight: bold;
+  }
+  .same{
+  	width: 100%;
+  }
+}
+/*************************Small sized devices********************/
+@media (max-width: 991px) {
+  .same{
+    border: 1px  solid black;
+    padding: 10px
+    padding-top: 50px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	background-color: gray;
+  	font-size: 1.5em;
+  	width: 100%;
+  	margin-bottom: 20px;
+  }
+  #box1,#box2,#box3{
+  	text-align: center;
+  	font-size: 1em;
+  	font-weight: bold;
+  }
+  .same{
+  	width: 100%;
+  }
+
+}
+/************************Extra small devices*******************/
+
+@media (max-width: 767px) {
+  .same{
+    border: 1px  solid black;
+    padding: 10px
+    padding-top: 50px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	background-color: gray;
+  	font-size: 1.5em;
+  	width: 100%;
+  	margin-bottom: 20px;
+  }
+  #box1,#box2,#box3{
+  	text-align: center;
+  	font-size: 1em;
+  	font-weight: bold;
+  }
+  .same{
+  	width: 100%;
+  }
+}
